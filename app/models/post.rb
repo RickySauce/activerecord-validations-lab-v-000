@@ -1,5 +1,5 @@
 class Post < ActiveRecord::Base
-  @@categories = ["fiction"]
+  @@categories = ["Fiction"]
 
   validates :title, presence: true
   validates :content, length: {minimum: 50}
